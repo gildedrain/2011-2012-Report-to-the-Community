@@ -1,0 +1,29 @@
+body {font-family:'open sans', gill sans, verdana, sans-serif; font-weight:300; margin:0; background:#1f1f1f url(../images/bg2.jpg) fixed top center;}
+/* HIDE STUFF */
+#main {background:transparent;}
+#globalnav, #aside, #occfooter, #siteheader {display:none;}
+.menu ul ul {display: none;}
+/* HORZY NAV (bottom fixed)*/
+.container {padding:0;}
+  .slider {width:960px; margin:0 auto 190px auto; background:#FFF; box-shadow:0 1px 20px #000;}
+    .slides_window {width:960px; overflow:hidden; position:relative;} /*masks the current .slide and hides the adjacent .slide(s), width must match the .slide it covers */
+      .slides {width:100000px; position:relative; overflow:hidden;}
+        .slide {float:left; width:960px;} /* width must match the .slides_window width */
+    .slidernav {width:100%; padding:6px 0 6px 0;height:auto; position:fixed; left:0; bottom:5px; text-align:center; background-color: #111; border:1px dashed #888; border-width:1px 0 1px 0; z-index:5; box-shadow:0 0 0 5px #111;}
+    .slidernav ul {list-style:none; padding:0; margin:0 auto; width:960px; }
+    .slidernav li {padding:6px 0 6px 0; display:inline-block;}
+    .ie7 .slidernav li {display:block; float:left;} /*IE7 doesn't know inline-block, adding float requires .clearfix to .slidernav in the HTML*/
+    .slidernav a {color:#FFF; display:inline-block; padding:2px 10px 2px 10px; margin:0; text-shadow:0 2px 1px #000; font-size:1.1em;}
+    .slidernav a:hover {text-decoration:none; color:#fff; text-shadow:0 2px 1px #666; background:#333;}
+    .slidernav a.current {outline:1px solid #1179fe;}
+.bg_banners {margin:0 0 0 0;}
+/* TYPOGRAPHY */
+#main h2 {text-align:center; color:#1799fe; font-size:2.5em; text-transform:uppercase; letter-spacing:-1px;}
+#main h2#menutitle {margin:45px 0 60px 200px; padding:0; color:#eee; font-weight:300; text-shadow:0 1px 1px #000; font-size:1.75em; text-align:right; text-transform:uppercase;}
+#main h2 em {display:block; font-family:"nothing you could do", 'open sans condensed', 'open sans', verdana, sans-serif; font-size:.8em; margin:.5em 0 0 0; text-transform:none;}
+#main h5 {text-transform:uppercase;}
+#main h6 {text-transform:uppercase;}
+.main {margin-bottom:1em;}
+/* GUI MODS */
+.quote {min-height:0;}
+.figure {margin-bottom:1em;}
