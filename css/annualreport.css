@@ -18,8 +18,8 @@ body {font-family:'open sans', gill sans, verdana, sans-serif; font-weight:300; 
     .slidernav a.current {outline:1px solid #1179fe;}
 .bg_banners {margin:0 0 0 0;}
 /* TYPOGRAPHY */
-#main h2 {text-align:center; color:#1799fe; font-size:2.5em; text-transform:uppercase; letter-spacing:-1px;}
-#main h2#menutitle {margin:45px 0 60px 200px; padding:0; color:#eee; font-weight:300; text-shadow:0 1px 1px #000; font-size:1.75em; text-align:right; text-transform:uppercase;}
+h2 {text-align:center; color:#1799fe; font-size:2.5em; text-transform:uppercase; letter-spacing:-1px;}
+h2#menutitle {margin:45px 0 60px 200px; padding:0; color:#eee; font-weight:300; text-shadow:0 1px 1px #000; font-size:1.75em; text-align:right; text-transform:uppercase;}
 #main h2 em {display:block; font-family:"nothing you could do", 'open sans condensed', 'open sans', verdana, sans-serif; font-size:.8em; margin:.5em 0 0 0; text-transform:none;}
 #main h5 {text-transform:uppercase;}
 #main h6 {text-transform:uppercase;}
